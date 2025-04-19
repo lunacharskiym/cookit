@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from api.v1.routes import router as api_router
-
+#Поплачь поплачь
+#Подрочи мне ногами я выгляжу как МакТрахер
 app = FastAPI(title="Cookit API")
 
 app.include_router(api_router, prefix="/api/v1")
